@@ -15,10 +15,10 @@ envVarGroups:
 - name: mysql
   envVars:
   - key: MYSQL_DATABASE
-    value: mysql
+    value: appseed_db
   - key: MYSQL_USER
-    value: mysql
+    value: appseed_db_usr
   - key: MYSQL_PASSWORD
-    generateValue: true
+    value: root_password_here
   - key: MYSQL_ROOT_PASSWORD
-    generateValue: true
+    value: root_password_here
